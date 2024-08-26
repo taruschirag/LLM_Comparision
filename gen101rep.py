@@ -1,8 +1,9 @@
 import openai
 import base64
 import json
+import os
 
-api_key = "sk-proj-vYYvALjCOUlJRZ0P4RBvT3BlbkFJ5couCavCxWwV8thtKbog"
+api_key = os.environ.get('OPENAI_API_KEY')
 
 
 def encode_image(image_bytes):
