@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "",
+    "wound_type": "Pressure ulcer",
+    "wound_depth": "Superficial",
+    "potential_causes": "Pressure, compromised immune system due to thyroid condition, anemia medication affecting healing, age-related factors",
+    "skin_color_surrounding_wound": "Red",
+    "edges": "Defined",
+    "wound_dimensions": {
+        "length": "10 mm",
+        "width": "10 mm",
+        "area": "100 mm sq",
+        "location": "Elbow",
+        "Undermining": "No"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "0%",
+        "granulating": "50%",
+        "epithelialising": "50%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "N/A",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "No",
+        "oedematous": "No",
+        "erythema": "Yes",
+        "excoriated": "No",
+        "fragile": "No",
+        "dry_scaly": "No",
+        "healthy_intact": "No"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "No significant exudate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "9 (Minimal tissue damage and exudate, granulating and epithelializing tissue present)"
+    },
+    "guidance": {
+        "dressing": "Use a non-adherent, moist dressing to protect the wound bed and promote healing. Change dressings regularly.",
+        "Excudate_Managment": "Monitor exudate levels and adjust dressings as needed to manage moisture without macerating surrounding skin.",
+        "debridement": "No debridement needed as there is no necrotic tissue.",
+        "absorption": "Use dressings that can manage moisture without macerating surrounding skin.",
+        "nutrition_hydration": "Ensure adequate protein intake and hydration to support healing. Consider multivitamins and minerals, especially focusing on zinc and vitamin C.",
+        "protection": "Protect the wound from further pressure or trauma by using cushioning or padding.",
+        "palliative_treatment": "Focus on comfort measures and pain management.",
+        "reduce_baterial_load": "Maintain a clean wound environment. Use topical antimicrobial agents if signs of infection develop.",
+        "stress_management": "Encourage stress-reducing activities such as meditation or light exercise.",
+        "pain_management": "Administer prescribed pain medications and consider topical analgesics.",
+        "Mobility": "Avoid pressure on the affected area. Use mobility aids if necessary.",
+        "wound_monitoring": "Regularly monitor the wound for changes in size, color, and exudate. Take photographs to document progress.",
+        "medication_management": "Ensure proper administration of anemia medication. Review thyroid medication management with healthcare provider."
+    },
+    "image_path": "Pics/Pressure Ulcer/pressure-ulcer-shoulder-min.jpg"
+}

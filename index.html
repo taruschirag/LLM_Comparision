@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wound Characteristics Comparison</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        .sub-row {
+            padding-left: 20px;
+            background-color: #f9f9f9;
+        }
+        .image-display {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Wound Characteristics Comparison</h1>
+<input type="file" id="fileInput" />
+<button id="addColumn">Add Comparison Column</button>
+<table id="woundTable">
+    <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value 1</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<div id="imageContainer" class="image-display"></div>
+
+<script>
+    let columnCount = 1;
+    const keyStructure = [];
+
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const woundData = JSON.parse(e.target.result);
+                    const tbody = document.querySelector('#woundTable tbody');
+                    const imageContainer = document.getElementById('imageContainer');
+
+                    tbody.innerHTML = ''; // Clear existing table content
+                    imageContainer.innerHTML = ''; // Clear existing image content
+                    keyStructure.length = 0; // Clear key structure
+
+                    displayData(woundData, tbody);
+                    displayImage(woundData.image_path, imageContainer);
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                    alert('Invalid JSON format in the file.');
+                }
+            };
+            reader.readAsText(file);
+        }
+    });
+
+    document.getElementById('addColumn').addEventListener('click', function() {
+        const newFileInput = document.createElement('input');
+        newFileInput.type = 'file';
+        newFileInput.addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const woundData = JSON.parse(e.target.result);
+                        addComparisonColumn(woundData);
+                        displayImage(woundData.image_path, document.getElementById('imageContainer'));
+                    } catch (error) {
+                        console.error('Error parsing JSON:', error);
+                        alert('Invalid JSON format in the file.');
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
+        newFileInput.click();
+    });
+
+    function displayData(data, parentElement) {
+        for (const key in data) {
+            if (key === 'image_path') continue; // Skip the image_path key
+
+            const value = data[key];
+            const row = document.createElement('tr');
+            const keyCell = document.createElement('td');
+            const valueCell = document.createElement('td');
+
+            keyCell.textContent = key;
+            row.appendChild(keyCell);
+
+            if (typeof value === 'object' && value !== null) {
+                valueCell.textContent = '';
+                row.appendChild(valueCell);
+                parentElement.appendChild(row);
+                keyStructure.push({ key, subKeys: [] });
+
+                for (const subKey in value) {
+                    const subRow = document.createElement('tr');
+                    const subKeyCell = document.createElement('td');
+                    const subValueCell = document.createElement('td');
+
+                    subKeyCell.textContent = subKey;
+                    subKeyCell.classList.add('sub-row');
+                    subValueCell.textContent = value[subKey];
+                    subRow.appendChild(subKeyCell);
+                    subRow.appendChild(subValueCell);
+                    parentElement.appendChild(subRow);
+
+                    keyStructure[keyStructure.length - 1].subKeys.push(subKey);
+                }
+            } else {
+                valueCell.textContent = value;
+                row.appendChild(valueCell);
+                parentElement.appendChild(row);
+                keyStructure.push({ key, subKeys: null });
+            }
+        }
+    }
+
+    function addComparisonColumn(data) {
+        const thead = document.querySelector('#woundTable thead tr');
+        const newHeader = document.createElement('th');
+        columnCount++;
+        newHeader.textContent = `Value ${columnCount}`;
+        thead.appendChild(newHeader);
+
+        const tbody = document.querySelector('#woundTable tbody');
+        const rows = tbody.querySelectorAll('tr');
+
+        let rowIndex = 0;
+        keyStructure.forEach(({ key, subKeys }) => {
+            if (subKeys) {
+                rowIndex++; // Skip the main row for this key (i.e., leave it empty)
+                subKeys.forEach(subKey => {
+                    const subValue = data[key] ? data[key][subKey] : 'N/A';
+                    const subRow = rows[rowIndex++];
+                    const subValueCell = document.createElement('td');
+                    subValueCell.textContent = subValue || 'N/A';
+                    subRow.appendChild(subValueCell);
+                });
+            } else {
+                const value = data[key] || 'N/A';
+                const row = rows[rowIndex++];
+                const valueCell = document.createElement('td');
+                valueCell.textContent = value;
+                row.appendChild(valueCell);
+            }
+        });
+    }
+
+    function displayImage(imagePath, container) {
+        if (imagePath) {
+            const img = document.createElement('img');
+            img.src = imagePath;
+            img.alt = 'Wound Image';
+            img.style.maxWidth = '100%';
+            img.style.height = 'auto';
+            container.appendChild(img);
+        }
+    }
+</script>
+
+</body>
+</html>

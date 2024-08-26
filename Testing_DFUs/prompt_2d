@@ -1,0 +1,67 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "Pungent",
+    "pain_level": "10/10",
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "Unknown",
+    "potential_causes": "Diabetic complication leading to poor blood circulation and neuropathy",
+    "skin_color_surrounding_wound": "Pale and purplish/blue",
+    "edges": "Necrotic",
+    "wound_dimensions": {
+        "length": "Approximately 70 mm",
+        "width": "Approximately 50 mm",
+        "area": "Approximately 3500 mm sq",
+        "location": "Toes and plantar surface of the foot",
+        "Undermining": "Not clearly visible"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "60%",
+        "sloughy": "20%",
+        "granulating": "0%",
+        "epithelialising": "0%",
+        "hypergranulating": "0%",
+        "haematoma": "20%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "N/A",
+        "wet": "Yes",
+        "serous": "N/A",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "Yes"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "Yes",
+        "erythema": "N/A",
+        "excoriated": "N/A",
+        "fragile": "Yes",
+        "dry_scaly": "N/A",
+        "healthy_intact": "N/A"
+    },
+    "peripheral_wound_skin_analysis": "Oedematous, fragile, and necrotic edges",
+    "signs_infection": {
+        "deteriorating_wound_bed": "Yes, presence of necrosis",
+        "exudate": "Yes, wet and colored exudate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "35"
+    },
+    "guidance": {
+        "dressing": "Use hydrocolloid or foam dressing to manage moisture",
+        "Exudate_Managment": "Frequent dressing changes and absorbent dressings to manage exudate",
+        "debridement": "Sharp debridement by a healthcare professional to remove necrotic tissue",
+        "absorption": "Use highly absorbent dressings",
+        "nutrition_hydration": "Ensure high-protein diet with adequate hydration",
+        "protection": "Protect the wound from further trauma using padding and offloading techniques",
+        "palliative_treatment": "Pain management with analgesics as needed",
+        "reduce_baterial_load": "Use topical antibiotics or antiseptics",
+        "stress_management": "Encourage stress-reducing activities and provide psychological support",
+        "pain_management": "Administer appropriate analgesics, consider nerve blocks if necessary",
+        "Mobility": "Limit weight-bearing on the affected foot; use crutches or a wheelchair if necessary",
+        "wound_monitoring": "Regular monitoring by a healthcare professional, with photographic documentation of wound progression",
+        "medication_management": "Ensure strict control of blood glucose levels and manage any other underlying conditions"
+    },
+    "image_path": "Pics/DFUs/unnamed (4).png"
+}

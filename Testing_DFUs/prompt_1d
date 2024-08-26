@@ -1,0 +1,66 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "Not specified",
+    "pain_level": "10/10",
+    "predicted_wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "Superficial to partial thickness",
+    "potential_causes": "Diabetes, poor circulation, and pressure",
+    "skin_color_surrounding_wound": "Pale with areas of erythema",
+    "edges": "Not clearly defined",
+    "wound_dimensions": {
+        "length": "50 mm",
+        "width": "30 mm",
+        "area": "1500 mm\u00b2",
+        "location": "Toes and plantar surface",
+        "undermining": "None observed"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "0%",
+        "granulating": "0%",
+        "epithelialising": "0%",
+        "hypergranulating": "0%",
+        "haematoma": "50%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "N/A",
+        "haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "Yes",
+        "erythema": "Yes",
+        "excoriated": "N/A",
+        "fragile": "Yes",
+        "dry_scaly": "Yes",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Yes",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": 30
+    },
+    "guidance": {
+        "dressing": "Use a non-adherent dressing to protect the wound.",
+        "excudate_management": "Change dressing as needed to manage moisture.",
+        "debridement": "Not required at the moment as no necrotic tissue is present.",
+        "absorption": "Use absorbent dressings to manage exudate.",
+        "nutrition_hydration": "Ensure a balanced diet rich in proteins, vitamins, and minerals. Maintain adequate hydration.",
+        "protection": "Avoid pressure on the wound by using appropriate footwear.",
+        "palliative_treatment": "Use pain management techniques such as analgesics as prescribed.",
+        "reduce_bacterial_load": "Keep the wound clean and protected from contaminants.",
+        "stress_management": "Practice relaxation techniques to manage pain and stress.",
+        "pain_management": "Use prescribed pain medications and consider topical analgesics.",
+        "mobility": "Limit movement to avoid pressure on the affected area.",
+        "wound_monitoring": "Regularly monitor the wound for signs of infection or changes in appearance.",
+        "medication_management": "Manage diabetes and anemia with prescribed medications to promote healing."
+    },
+    "image_path": "Pics/DFUs/unnamed (4).png"
+}

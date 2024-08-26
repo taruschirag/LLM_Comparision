@@ -1,0 +1,57 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": null,
+    "wound_type": "Pressure ulcer",
+    "wound_depth": "Partial thickness",
+    "potential_causes": "Pressure injury due to immobility, exacerbated by diabetes and anemia medication",
+    "skin_color_surrounding_wound": "Red",
+    "edges": "Irregular, Rolled",
+    "wound_dimensions": {
+        "length": 40,
+        "width": 30,
+        "area": 1200,
+        "location": "Sacral region",
+        "Undermining": "Yes"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": 0,
+        "sloughy": 0,
+        "granulating": 40,
+        "epithelialising": 10,
+        "hypergranulating": 0,
+        "haematoma": 0,
+        "bone_tendon": 0
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "Yes",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": "",
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Yes, moderate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": 21
+    },
+    "guidance": {
+        "dressing": "Use a foam dressing to protect the wound and maintain moisture balance.",
+        "Excudate_Managment": "Monitor and change dressings as needed to manage exudate.",
+        "debridement": "Perform gentle debridement to remove any necrotic tissue if present.",
+        "absorption": "Use dressings with high absorption capacity if exudate increases.",
+        "nutrition_hydration": "Ensure adequate protein intake and hydration to support healing.",
+        "protection": "Use pressure-relieving devices (e.g., cushions, mattresses) to reduce pressure on the wound area.",
+        "palliative_treatment": "Administer pain relief medications as prescribed to manage severe pain.",
+        "reduce_baterial_load": "Maintain strict hygiene and use topical antimicrobial agents if necessary.",
+        "stress_management": "Encourage relaxation techniques and provide psychological support.",
+        "pain_management": "Administer prescribed analgesics and consider non-pharmacological pain relief methods.",
+        "Mobility": "Encourage gentle movements and repositioning to avoid prolonged pressure on the wound.",
+        "wound_monitoring": "Regularly monitor wound progress and report any signs of infection or deterioration.",
+        "medication_management": "Ensure diabetes and anemia medications are taken as prescribed to support overall health and wound healing."
+    },
+    "image_path": "Pics/Pressure Ulcer/pressure-ulcer-min.jpg"
+}

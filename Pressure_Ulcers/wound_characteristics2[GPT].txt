@@ -1,0 +1,56 @@
+{
+    "wound_presence": true,
+    "wound_duration": "n/a",
+    "wound_odor": "n/a",
+    "wound_type": "Pressure Ulcer Stage 4",
+    "wound_depth": "Deep",
+    "potential_causes": "Prolonged pressure on the skin, immobility, poor nutrition, and hydration.",
+    "wound_dimensions": {
+        "length": "approximately 90 mm",
+        "width": "approximately 70 mm",
+        "location": "Sacral area"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "80%",
+        "sloughy": "0%",
+        "granulating": "0%",
+        "epithelialising": "0%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "20%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "No",
+        "wet": "No",
+        "serous": "No",
+        "Haemoserous": "No",
+        "cloudy_mily_creamy": "No",
+        "green_bluish_yellow_brown": "No"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "No",
+        "oedematous": "No",
+        "erythema": "Yes",
+        "excoriated": "No",
+        "fragile": "No",
+        "dry_scaly": "No",
+        "healthy_intact": "No"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "Yes",
+        "exudate": "No",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": 35
+    },
+    "guidance": {
+        "debridement": "Sharp debridement to remove necrotic tissue.",
+        "absorption": "Use absorbent dressings to manage wound exudate if any.",
+        "hydration": "Maintain proper nutrition and hydration to promote healing.",
+        "protection": "Use protective dressings to prevent further pressure on the wound.",
+        "palliative_treatment": "Repositioning to alleviate pressure, use of specialized mattresses or cushions.",
+        "reduce_bacterial_load": "Use of topical antimicrobial agents and maintaining wound hygiene.",
+        "stress_management": "Encourage relaxation techniques and provide psychological support.",
+        "pain_management": "Administer pain relief medications as needed."
+    },
+    "image_path": "/Users/taruschirag/Desktop/Truss/Pics/Pressure Ulcer/neurotic-pressure-ulcer-sacral-min.jpg"
+}

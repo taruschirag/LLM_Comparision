@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "N/A",
+    "wound_type": "Assumed: Diabetic foot ulcer; Predicted: Callus with potential ulceration",
+    "wound_depth": "Approximate depth: Superficial",
+    "potential_causes": "Pressure due to footwear, Diabetes-related complications",
+    "skin_color_surrounding_wound": "Dark brown",
+    "edges": "Well-defined",
+    "wound_dimensions": {
+        "length": "Approx. 10 mm",
+        "width": "Approx. 10 mm",
+        "area": "Approx. 100 mm\u00b2",
+        "location": "Dorsal aspect of the toe",
+        "Undermining": "N/A"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "0%",
+        "granulating": "0%",
+        "epithelialising": "0%",
+        "hypergranulating": "0%",
+        "haematoma": "100%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Dry",
+        "wet": "N/A",
+        "serous": "N/A",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "N/A",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "Yes",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "No exudate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "12"
+    },
+    "guidance": {
+        "dressing": "Use protective padding to offload pressure from the affected area.",
+        "Exudate_Managment": "Maintain dryness to avoid maceration.",
+        "debridement": "Not required at this stage.",
+        "absorption": "N/A",
+        "nutrition_hydration": "Maintain a balanced diet rich in vitamins and minerals. Ensure adequate hydration.",
+        "protection": "Use soft, well-fitting footwear to avoid further pressure.",
+        "palliative_treatment": "N/A",
+        "reduce_baterial_load": "Keep the area clean and dry. Use antiseptics if necessary.",
+        "stress_management": "Encourage patient to reduce stress through activities like meditation or light exercise.",
+        "pain_management": "Administer pain relief medication as needed (consult with healthcare provider).",
+        "Mobility": "Limit weight-bearing activities on the affected foot. Use supportive footwear.",
+        "wound_monitoring": "Regularly monitor the wound for signs of infection or deterioration.",
+        "medication_management": "Ensure the patient continues with prescribed Diabetes and Anemia medications. Monitor blood glucose levels regularly."
+    },
+    "image_path": "Pics/DFUs/unnamed (3).png"
+}

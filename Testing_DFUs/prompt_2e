@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "Not provided",
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "Approximate depth of 3 mm",
+    "potential_causes": "Diabetes, possible pressure points on soles of feet",
+    "skin_color_surrounding_wound": "Normal",
+    "edges": "Regular, defined edges",
+    "wound_dimensions": {
+        "length": "10 mm",
+        "width": "10 mm",
+        "area": "100 mm sq",
+        "location": "Soles of both feet",
+        "undermining": "Not observed"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "10%",
+        "granulating": "60%",
+        "epithelialising": "20%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "Yes",
+        "haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "N/A",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "N/A",
+        "healthy_intact": "Yes"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Moderate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "20"
+    },
+    "guidance": {
+        "dressing": "Use non-adherent dressings or hydrocolloid dressings.",
+        "exudate_management": "Use absorbent dressings to manage the moderate exudate.",
+        "debridement": "Sharp debridement may be required to remove any slough.",
+        "absorption": "Use absorbent dressings to manage exudate.",
+        "nutrition_hydration": "Ensure adequate protein intake and hydration.",
+        "protection": "Offload pressure from the foot to prevent further damage.",
+        "palliative_treatment": "Use pain relief as necessary and monitor for signs of infection.",
+        "reduce_bacterial_load": "Maintain wound hygiene, consider topical antimicrobials if signs of infection appear.",
+        "stress_management": "Encourage stress reduction techniques such as deep breathing exercises.",
+        "pain_management": "Administer prescribed analgesics and consider nerve pain medication if necessary.",
+        "mobility": "Encourage limited weight-bearing activities to prevent pressure on the wound.",
+        "wound_monitoring": "Regularly monitor the wound for signs of healing or infection progression.",
+        "medication_management": "Ensure diabetes and anemia medications are taken as prescribed and monitor blood glucose levels."
+    },
+    "image_path": "Pics/DFUs/unnamed (5).png"
+}

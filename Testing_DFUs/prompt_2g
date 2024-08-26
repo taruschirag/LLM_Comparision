@@ -1,0 +1,66 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "<string>",
+    "pain_level": "10/10",
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "Deep",
+    "potential_causes": "Diabetes",
+    "skin_color_surrounding_wound": "Red",
+    "edges": "well-defined, undermined",
+    "wound_dimensions": {
+        "length": "20 mm",
+        "width": "20 mm",
+        "area": "400 mm sq",
+        "location": "Plantar surface of the foot",
+        "undermining": "Present"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "20%",
+        "granulating": "60%",
+        "epithelialising": "10%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "10%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "N/A",
+        "wet": "Yes",
+        "serous": "N/A",
+        "haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "Yes"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "Yes",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "N/A",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "Present (Slough)",
+        "exudate": "Yes, Wet",
+        "friable_granulation_tissue": "Yes, 60%",
+        "bwat_wound_score": "32"
+    },
+    "guidance": {
+        "dressing": "Apply a non-adherent, antimicrobial dressing to reduce infection risk and promote healing.",
+        "exudate_management": "Use absorbent dressings to manage exudate, change as needed to prevent maceration.",
+        "debridement": "Sharp debridement to remove slough and necrotic tissue.",
+        "absorption": "Use highly absorbent dressings to manage excess exudate.",
+        "nutrition_hydration": "Ensure balanced diet rich in proteins, vitamins (especially Vitamin C and Zinc), and maintain proper hydration.",
+        "protection": "Use offloading techniques to prevent pressure on the wound site.",
+        "palliative_treatment": "Provide pain management through prescribed analgesics and consider use of local anesthetics during dressing changes.",
+        "reduce_bacterial_load": "Regularly clean wound with sterile saline and apply antimicrobial dressings.",
+        "stress_management": "Encourage relaxation techniques and provide psychological support to manage stress.",
+        "pain_management": "Administer prescribed pain medications and consider topical pain relief options.",
+        "mobility": "Limit weight-bearing activities and use appropriate footwear to reduce pressure on the wound.",
+        "wound_monitoring": "Regularly monitor wound for signs of infection and healing progress, document changes.",
+        "medication_management": "Manage blood sugar levels meticulously and ensure compliance with prescribed medications for diabetes and anemia."
+    },
+    "image_path": "Pics/DFUs/unnamed.png"
+}

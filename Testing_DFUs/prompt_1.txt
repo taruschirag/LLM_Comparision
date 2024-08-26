@@ -1,0 +1,66 @@
+{
+    "prompt": "original prompt",
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "",
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "3 mm",
+    "potential_causes": "Diabetes, Pressure, Poor blood circulation",
+    "skin_color_surrounding_wound": "Yellowish",
+    "edges": "Well-defined, Rolled",
+    "wound_dimensions": {
+        "length": "10 mm",
+        "width": "8 mm",
+        "area": "80 mm sq",
+        "location": "Heel",
+        "Undermining": "None"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "10%",
+        "granulating": "80%",
+        "epithelialising": "10%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "Yes",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "N/A",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "Yes",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Moderate",
+        "friable_granulation_tissue": "None",
+        "bwat_wound_score": "23"
+    },
+    "guidance": {
+        "dressing": "Use foam dressings to keep the wound moist and protect it from pressure.",
+        "Exudate_Managment": "Change dressings regularly to manage the moisture level.",
+        "debridement": "Sharp debridement to remove sloughy tissue.",
+        "absorption": "Use super absorbent dressings if exudate increases.",
+        "nutrition_hydration": "Ensure a balanced diet rich in proteins, vitamins, and minerals. Maintain adequate hydration.",
+        "protection": "Offload pressure from the heel using special footwear or padding.",
+        "palliative_treatment": "Consider topical antimicrobials if infection is suspected.",
+        "reduce_baterial_load": "Maintain strict hygiene; use antiseptic solutions as needed.",
+        "stress_management": "Encourage relaxation techniques such as meditation.",
+        "pain_management": "Prescribe analgesics as needed for pain control.",
+        "Mobility": "Encourage limited mobility; use assistive devices to avoid pressure on the heel.",
+        "wound_monitoring": "Monitor the wound daily for signs of infection or deterioration.",
+        "medication_management": "Ensure consistent use of prescribed medications for diabetes and anemia."
+    },
+    "image_path": "Pics/DFUs/unnamed (1).png"
+}

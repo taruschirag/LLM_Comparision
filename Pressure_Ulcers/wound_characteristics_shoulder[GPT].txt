@@ -1,0 +1,81 @@
+{
+    "image": "<base64 encoded string>",
+    "patient_history": {
+        "conditions": [
+            "diabetes",
+            "anemia"
+        ],
+        "medication": "N/A"
+    },
+    "factors_affecting_healing": [],
+    "age": 62,
+    "gender": "Female",
+    "height": 65,
+    "weight": 140,
+    "city": "Mumbai",
+    "country": "India",
+    "assumed_wound_type": "Pressure Ulcer",
+    "wound_duration": "5 days",
+    "wound_odor": "None",
+    "pain_level": 5,
+    "assessment": {
+        "wound_presence": true,
+        "wound_duration": "5 days",
+        "wound_odor": "None",
+        "wound_type": "Pressure Ulcer",
+        "wound_depth": "Superficial",
+        "potential_causes": "Pressure due to prolonged immobility",
+        "wound_dimensions": {
+            "length": 25,
+            "width": 20,
+            "area": 500,
+            "location": "Elbow",
+            "undermining": "None"
+        },
+        "tissue_type_on_wound_bed": {
+            "necrotic": 0,
+            "sloughy": 0,
+            "granulating": 70,
+            "epithelialising": 30,
+            "hypergranulating": 0,
+            "haematoma": 0,
+            "bone_tendon": 0
+        },
+        "wound_exudate_levels": {
+            "dry_moist": "Moist",
+            "wet": "N/A",
+            "saturated": "N/A",
+            "leaking": "N/A",
+            "serous": "N/A",
+            "haemoserous": "N/A",
+            "cloudy_milky_creamy": "N/A",
+            "green_bluish_yellow_brown": "N/A"
+        },
+        "peripheral_wound_skin": {
+            "macerated": "N/A",
+            "oedematous": "N/A",
+            "erythema_redness": "Yes",
+            "excoriated": "N/A",
+            "fragile": "N/A",
+            "dry_scaly": "N/A",
+            "healthy_intact": "N/A"
+        },
+        "signs_infection": {
+            "deteriorating_wound_bed": "No",
+            "exudate": "Minimal",
+            "friable_granulation_tissue": "No",
+            "bwat_wound_score": 12
+        },
+        "guidance": {
+            "debridement": "Not required",
+            "absorption": "Use a moisture-retentive dressing",
+            "hydration": "Keep the wound bed moist",
+            "protection": "Protect the area from further pressure or friction",
+            "palliative_treatment": "N/A",
+            "reduce_bacterial_load": "Apply a topical antibiotic if infection is suspected",
+            "stress_management": "Encourage relaxation techniques and adequate sleep",
+            "pain_management": "Administer analgesics as per pain level"
+        }
+    },
+    "image_path": "Pics/Pressure Ulcer/pressure-ulcer-shoulder-min.jpg"
+}

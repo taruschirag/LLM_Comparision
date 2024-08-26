@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "No odor",
+    "wound_type": "Diabetic foot ulcer",
+    "wound_depth": "Superficial",
+    "potential_causes": "Diabetes, pressure",
+    "skin_color_surrounding_wound": "Pinkish",
+    "edges": "Well-defined",
+    "wound_dimensions": {
+        "length": "20 mm",
+        "width": "20 mm",
+        "area": "400 mm sq",
+        "location": "Plantar surface of the foot",
+        "Undermining": "No"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "0%",
+        "granulating": "70%",
+        "epithelialising": "30%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "No",
+        "serous": "Yes",
+        "Haemoserous": "No",
+        "cloudy_milky_creamy": "No",
+        "green_bluish_yellow_brown": "No"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "Yes",
+        "oedematous": "No",
+        "erythema": "No",
+        "excoriated": "No",
+        "fragile": "No",
+        "dry_scaly": "No",
+        "healthy_intact": "No"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Moderate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "20"
+    },
+    "guidance": {
+        "dressing": "Use of non-adherent foam dressing to keep the wound moist and protected",
+        "Exudate_Managment": "Ensure appropriate dressing to absorb moderate exudate",
+        "debridement": "Not required as there is no necrotic tissue",
+        "absorption": "Use of absorbent dressings if necessary",
+        "nutrition_hydration": "Encourage a diet rich in proteins, vitamins, and minerals. Ensure adequate hydration.",
+        "protection": "Use of offloading devices to reduce pressure on the ulcer site",
+        "palliative_treatment": "Pain management as required",
+        "reduce_baterial_load": "Maintain good hygiene, use antiseptic solutions as necessary",
+        "stress_management": "Encourage stress-relief activities appropriate for the patient",
+        "pain_management": "Oral analgesics as needed",
+        "Mobility": "Encourage limited weight-bearing on the affected foot",
+        "wound_monitoring": "Regular monitoring and assessment of the wound for signs of infection or deterioration",
+        "medication_management": "Manage blood glucose levels, continue anemia medication as prescribed"
+    },
+    "image_path": "Pics/DFUs/unnamed (2).png"
+}

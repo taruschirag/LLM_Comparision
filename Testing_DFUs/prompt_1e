@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "Null",
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "2 mm",
+    "potential_causes": "Diabetes, Pressure, Neuropathy",
+    "skin_color_surrounding_wound": "Normal",
+    "edges": "Well-defined edges surrounded by callus",
+    "wound_dimensions": {
+        "length": "10 mm",
+        "width": "8 mm",
+        "area": "80 mm\u00b2",
+        "location": "Plantar aspect of both feet",
+        "Undermining": "None"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "20%",
+        "granulating": "50%",
+        "epithelialising": "20%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "Yes",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "Yellow"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "N/A",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "N/A",
+        "healthy_intact": "Yes"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Moderate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "20"
+    },
+    "guidance": {
+        "dressing": "Use hydrocolloid or foam dressings to protect the wound and maintain a moist environment.",
+        "Excudate_Managment": "Ensure appropriate dressings are used to manage exudate levels and change dressings regularly.",
+        "debridement": "Sharp debridement to remove sloughy tissue and promote granulation.",
+        "absorption": "Use absorbent dressings to manage exudate.",
+        "nutrition_hydration": "Ensure adequate protein and calorie intake. Monitor blood glucose levels and maintain hydration.",
+        "protection": "Offload pressure from the affected areas using specialized footwear or orthotics.",
+        "palliative_treatment": "Consider pain management strategies such as analgesics.",
+        "reduce_baterial_load": "Maintain strict hygiene, use antimicrobial dressings if signs of infection appear.",
+        "stress_management": "Provide counseling or support to manage stress and anxiety.",
+        "pain_management": "Administer analgesics as needed and consider topical pain relief options.",
+        "Mobility": "Encourage limited weight-bearing activities and use assistive devices as needed.",
+        "wound_monitoring": "Regularly monitor the wound for changes in size, exudate, and signs of infection.",
+        "medication_management": "Ensure optimal control of diabetes and other underlying conditions. Review and adjust medications as necessary."
+    },
+    "image_path": "Pics/DFUs/unnamed (5).png"
+}

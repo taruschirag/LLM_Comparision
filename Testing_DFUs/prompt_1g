@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": null,
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "Approximately 5 mm",
+    "potential_causes": "Diabetes, Pressure",
+    "skin_color_surrounding_wound": "Red",
+    "edges": "Regular",
+    "wound_dimensions": {
+        "length": "30 mm",
+        "width": "20 mm",
+        "area": "600 mm\u00b2",
+        "location": "Plantar surface of the left foot",
+        "Undermining": "None"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "0%",
+        "granulating": "60%",
+        "epithelialising": "20%",
+        "hypergranulating": "10%",
+        "haematoma": "0%",
+        "bone_tendon": "10%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "N/A",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "Yes",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "Yes",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Yes, moderate amount",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": 21
+    },
+    "guidance": {
+        "dressing": "Use non-adherent dressings to protect the wound and reduce pain during dressing changes.",
+        "Excudate_Managment": "Use absorbent dressings like alginates to manage exudate levels.",
+        "debridement": "Sharp debridement to remove necrotic tissue if present.",
+        "absorption": "Use dressings that provide optimal moisture balance.",
+        "nutrition_hydration": "Maintain adequate protein intake and hydration.",
+        "protection": "Offloading techniques such as using specialized footwear to reduce pressure on the wound.",
+        "palliative_treatment": "Consider pain management strategies including analgesics.",
+        "reduce_baterial_load": "Use antimicrobial dressings if signs of infection are present.",
+        "stress_management": "Encourage relaxation techniques to manage stress.",
+        "pain_management": "Administer prescribed analgesics and consider non-pharmacologic pain relief methods.",
+        "Mobility": "Encourage limited mobility to reduce pressure on the wound.",
+        "wound_monitoring": "Monitor wound progression regularly and document changes.",
+        "medication_management": "Ensure adherence to diabetes medications and other prescribed treatments."
+    },
+    "image_path": "Pics/DFUs/unnamed.png"
+}

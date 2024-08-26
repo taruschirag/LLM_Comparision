@@ -1,0 +1,67 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "N/A",
+    "wound_type": "Pressure Ulcer",
+    "wound_depth": "Approx. 5 mm",
+    "potential_causes": "Prolonged pressure due to immobility, Diabetes, Peripheral Neuropathy",
+    "skin_color_surrounding_wound": "Red",
+    "edges": "Well-defined, rolled edges",
+    "wound_dimensions": {
+        "length": "50 mm",
+        "width": "40 mm",
+        "area": "2000 mm\u00b2",
+        "location": "Heel",
+        "Undermining": "N/A"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "10%",
+        "granulating": "70%",
+        "epithelialising": "20%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "saturated": "N/A",
+        "leaking": "N/A",
+        "serous": "Yes",
+        "haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "Yes",
+        "excoriated": "N/A",
+        "fragile": "Yes",
+        "dry_scaly": "N/A",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "Yes (presence of slough)",
+        "exudate": "Moderate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "25"
+    },
+    "guidance": {
+        "dressing": "Use a non-adherent foam dressing with silicone border to protect the wound and manage exudate.",
+        "Excudate_Managment": "Change the dressing every 1-3 days depending on the exudate level.",
+        "debridement": "Sharp debridement may be required to remove sloughy tissue. Consult a wound care specialist.",
+        "absorption": "Ensure the dressing is capable of absorbing moderate amounts of exudate.",
+        "nutrition_hydration": "Increase protein intake (e.g., lean meats, beans) and ensure adequate hydration (8-10 glasses of water per day). Consider supplementation with vitamins A, C, and zinc.",
+        "protection": "Offload pressure from the heel using heel protectors or foam cushions to promote healing.",
+        "palliative_treatment": "Consider use of topical analgesia for pain management.",
+        "reduce_baterial_load": "Use an antimicrobial dressing if signs of infection persist. Clean the wound with saline solution before dressing changes.",
+        "stress_management": "Encourage relaxation techniques such as deep breathing and meditation.",
+        "pain_management": "Administer prescribed analgesics (e.g., acetaminophen) and consider referral to pain management specialist if needed.",
+        "Mobility": "Encourage gentle motion exercises to improve circulation but avoid weight-bearing on the affected heel.",
+        "wound_monitoring": "Monitor the wound size, exudate level, and signs of infection daily. Schedule regular follow-ups with a wound care specialist.",
+        "medication_management": "Ensure adherence to diabetes and anemia medications. Consult with a healthcare provider for any necessary adjustments."
+    },
+    "image_path": "Pics/DFUs/unnamed (6).png"
+}

@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "N/A",
+    "wound_type": "Pressure Ulcer",
+    "wound_depth": "Full thickness (approximately 5-10 mm)",
+    "potential_causes": "Pressure ulcer due to prolonged pressure, possibly exacerbated by underlying conditions like diabetes and anemia medication.",
+    "skin_color_surrounding_wound": "Pale with some erythema",
+    "edges": "Irregular and undermined",
+    "wound_dimensions": {
+        "length": "70 mm",
+        "width": "50 mm",
+        "area": "3500 mm sq",
+        "location": "Sacral area",
+        "Undermining": "Yes"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "60%",
+        "sloughy": "0%",
+        "granulating": "20%",
+        "epithelialising": "0%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "20%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "N/A",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "Yes",
+        "excoriated": "N/A",
+        "fragile": "Yes",
+        "dry_scaly": "N/A",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "Yes, presence of necrosis",
+        "exudate": "Yes, moist",
+        "friable_granulation_tissue": "N/A",
+        "bwat_wound_score": "45"
+    },
+    "guidance": {
+        "dressing": "Use hydrocolloid or foam dressings to protect the wound and absorb exudate.",
+        "Excudate_Managment": "Use absorbent dressings to manage moisture levels.",
+        "debridement": "Sharp debridement to remove necrotic tissue.",
+        "absorption": "Hydrocolloid dressings for moderate absorption.",
+        "nutrition_hydration": "Ensure adequate protein intake, hydration, and consider supplements like Vitamin C and Zinc.",
+        "protection": "Use pressure-relieving devices like cushions or mattresses.",
+        "palliative_treatment": "Consider non-opioid analgesics for pain management.",
+        "reduce_baterial_load": "Topical antimicrobial dressings may be considered.",
+        "stress_management": "Encourage relaxation techniques and provide psychological support.",
+        "pain_management": "Administer analgesics as needed and consider non-pharmacological interventions like cold therapy.",
+        "Mobility": "Encourage frequent repositioning and use of mobility aids.",
+        "wound_monitoring": "Regular assessment and documentation of wound progress.",
+        "medication_management": "Review and manage medications that may impede healing, such as anemia medication."
+    },
+    "image_path": "Pics/Pressure Ulcer/neurotic-pressure-ulcer-sacral-min.jpg"
+}

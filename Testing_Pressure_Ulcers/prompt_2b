@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "Not specified",
+    "wound_type": "Pressure ulcer",
+    "wound_depth": "Moderate",
+    "potential_causes": "Prolonged pressure, thyroid issues, anemia medication",
+    "skin_color_surrounding_wound": "Red",
+    "edges": "Irregular, sloping",
+    "wound_dimensions": {
+        "length": "50",
+        "width": "40",
+        "area": "2000",
+        "location": "Buttocks",
+        "undermining": "Yes, moderate"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "0%",
+        "granulating": "50%",
+        "epithelialising": "40%",
+        "hypergranulating": "10%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "Yes",
+        "haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "Yes",
+        "erythema": "Yes",
+        "excoriated": "N/A",
+        "fragile": "Yes",
+        "dry_scaly": "N/A",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "Moderate",
+        "friable_granulation_tissue": "N/A",
+        "bwat_wound_score": "20"
+    },
+    "guidance": {
+        "dressing": "Use hydrocolloid or foam dressings to maintain a moist environment",
+        "excudate_managment": "Regularly change dressings, use absorbent pads if necessary",
+        "debridement": "May require autolytic or enzymatic debridement",
+        "absorption": "Ensure dressings are capable of absorbing moderate exudate",
+        "nutrition_hydration": "Increase protein intake, ensure adequate hydration",
+        "protection": "Use pressure-relieving devices, reposition frequently",
+        "palliative_treatment": "Consider pain management strategies",
+        "reduce_bacterial_load": "Maintain cleanliness, consider topical antimicrobial agents",
+        "stress_management": "Encourage relaxation techniques and counseling if needed",
+        "pain_management": "Administer prescribed analgesics, consider topical anesthetics",
+        "mobility": "Encourage gentle movements, avoid prolonged pressure on the area",
+        "wound_monitoring": "Regularly monitor for changes in size, exudate, and signs of infection",
+        "medication_management": "Review and adjust medications that may impair healing, including thyroid and anemia medications"
+    },
+    "image_path": "Pics/Pressure Ulcer/pressure-ulcer-min.jpg"
+}

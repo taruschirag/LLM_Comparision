@@ -1,0 +1,67 @@
+{
+    "prompt": "changed the importance level for input data",
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "<string>",
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "Moderate",
+    "potential_causes": "Diabetes, possible neuropathy, pressure or trauma",
+    "skin_color_surrounding_wound": "Yellow/Green",
+    "edges": "Defined, possibly rolled",
+    "wound_dimensions": {
+        "length": "15 mm",
+        "width": "10 mm",
+        "area": "150 mm\u00b2",
+        "location": "Foot",
+        "Undermining": "None detected"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "20%",
+        "granulating": "50%",
+        "epithelialising": "0%",
+        "hypergranulating": "0%",
+        "haematoma": "0%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Moist",
+        "wet": "N/A",
+        "serous": "N/A",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "Yellow",
+        "leaking": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "N/A",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "Detected",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "Presence of slough",
+        "exudate": "Moderate",
+        "friable_granulation_tissue": "None detected",
+        "bwat_wound_score": 22
+    },
+    "guidance": {
+        "dressing": "Use non-adherent, antimicrobial dressings to protect the wound and manage exudate.",
+        "Excudate_Managment": "Use absorbent dressings to manage moderate exudate levels.",
+        "debridement": "Sharp or autolytic debridement to remove slough and necrotic tissue.",
+        "absorption": "Use dressings with good absorption properties to avoid maceration.",
+        "nutrition_hydration": "Ensure adequate protein intake and hydration to promote healing. Consider consulting a dietitian.",
+        "protection": "Offloading techniques to prevent further pressure on the wound (e.g., special footwear or insoles).",
+        "palliative_treatment": "Topical analgesics to manage pain.",
+        "reduce_baterial_load": "Use antiseptic solutions or ointments to reduce bacterial load.",
+        "stress_management": "Encourage relaxation techniques and provide psychological support as needed.",
+        "pain_management": "Administer prescribed pain medication and consider non-pharmacological pain relief methods.",
+        "Mobility": "Limit weight-bearing activities to reduce pressure on the foot.",
+        "wound_monitoring": "Regularly photograph and measure the wound to monitor healing progress.",
+        "medication_management": "Review and manage diabetes and anemia medications to optimize wound healing."
+    },
+    "image_path": "Pics/DFUs/unnamed (1).png"
+}

@@ -1,0 +1,65 @@
+{
+    "wound_presence": true,
+    "wound_duration": "30 days",
+    "wound_odor": "",
+    "wound_type": "Diabetic Foot Ulcer",
+    "wound_depth": "Superficial",
+    "potential_causes": "Diabetes, Pressure",
+    "skin_color_surrounding_wound": "Brown",
+    "edges": "Defined",
+    "wound_dimensions": {
+        "length": 5,
+        "width": 5,
+        "area": 25,
+        "location": "Toe",
+        "Undermining": "No"
+    },
+    "tissue_type_on_wound_bed": {
+        "necrotic": "0%",
+        "sloughy": "0%",
+        "granulating": "0%",
+        "epithelialising": "0%",
+        "hypergranulating": "0%",
+        "haematoma": "100%",
+        "bone_tendon": "0%"
+    },
+    "wound_exudate_levels": {
+        "dry_moist": "Dry",
+        "wet": "N/A",
+        "serous": "N/A",
+        "Haemoserous": "N/A",
+        "cloudy_milky_creamy": "N/A",
+        "green_bluish_yellow_brown": "N/A"
+    },
+    "peripheral_wound_skin": {
+        "macerated": "N/A",
+        "oedematous": "N/A",
+        "erythema": "N/A",
+        "excoriated": "N/A",
+        "fragile": "N/A",
+        "dry_scaly": "Yes",
+        "healthy_intact": "N/A"
+    },
+    "signs_infection": {
+        "deteriorating_wound_bed": "No",
+        "exudate": "No exudate",
+        "friable_granulation_tissue": "No",
+        "bwat_wound_score": "8"
+    },
+    "guidance": {
+        "dressing": "Use a non-adherent dressing to cover the wound. Change daily.",
+        "Excudate_Managment": "Keep the wound dry. Avoid moisture.",
+        "debridement": "No debridement necessary.",
+        "absorption": "Ensure the dressing is dry and absorbent.",
+        "nutrition_hydration": "Maintain a balanced diet, with vitamins C and E, zinc, and adequate hydration.",
+        "protection": "Protect the wound from pressure and friction.",
+        "palliative_treatment": "Consider pain relief medication as prescribed.",
+        "reduce_baterial_load": "Maintain proper hygiene, cleanse the wound daily.",
+        "stress_management": "Engage in stress-relief techniques like meditation.",
+        "pain_management": "Over-the-counter pain relievers as needed.",
+        "Mobility": "Minimize pressure on the affected area. Use protective footwear.",
+        "wound_monitoring": "Monitor the wound daily for changes in size, color, or exudate.",
+        "medication_management": "Ensure diabetes medications are taken as prescribed. Monitor blood glucose levels regularly."
+    },
+    "image_path": "Pics/DFUs/unnamed (3).png"
+}
